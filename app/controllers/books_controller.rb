@@ -30,3 +30,4 @@ class BooksController < ApplicationController
       params.permit(:name, :year, :code)
     end
   end
+end
